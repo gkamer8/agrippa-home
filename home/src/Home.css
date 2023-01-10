@@ -1,0 +1,22 @@
+.home_container {
+    text-align: center;
+}
+
+.main {
+    width: 50%;
+    min-width: 500px;
+    color: #45DE14 ;
+    text-align: left;
+    margin: auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+
+.email {
+    text-decoration: underline;
+}
