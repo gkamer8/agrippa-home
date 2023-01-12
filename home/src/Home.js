@@ -16,12 +16,13 @@ function Home(props){
                         wrapper="div"
                         cursor={false}
                         repeat={0}
+                        speed={70}
                     />
                 </h1>
                 <div>
                     <TypeAnimation
                         sequence={[
-                            1000,
+                            500,
                             'Analyze, compose, and share complex AI models.',
                             () => {
                                 console.log('Done typing!'); // Place optional callbacks anywhere in the array
@@ -29,13 +30,14 @@ function Home(props){
                         ]}
                         cursor={false}
                         repeat={Infinity}
+                        speed={70}
                     />
                 </div>
                 <br/>
                 <div>
                     <TypeAnimation
                         sequence={[
-                            4000,
+                            2000,
                             'Contact team@agrippa.build',
                             () => {
                                 console.log('Done typing!'); // Place optional callbacks anywhere in the array
@@ -43,6 +45,7 @@ function Home(props){
                         ]}
                         cursor={false}
                         repeat={Infinity}
+                        speed={70}
                     />
                 </div>
             </div>
