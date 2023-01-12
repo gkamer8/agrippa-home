@@ -19,3 +19,7 @@ a {
 .email {
     text-decoration: underline;
 }
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
