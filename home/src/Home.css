@@ -3,12 +3,11 @@
 }
 
 .main {
-    width: 50%;
-    min-width: 500px;
     color: #45DE14 ;
     text-align: left;
-    margin: auto;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 a {
