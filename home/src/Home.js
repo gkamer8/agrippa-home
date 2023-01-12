@@ -37,7 +37,7 @@ function Home(props){
                 <div>
                     <TypeAnimation
                         sequence={[
-                            2000,
+                            2500,
                             'Contact team@agrippa.build',
                             () => {
                                 console.log('Done typing!'); // Place optional callbacks anywhere in the array
