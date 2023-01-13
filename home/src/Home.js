@@ -29,7 +29,7 @@ function Home(props){
                             }
                         ]}
                         cursor={false}
-                        repeat={Infinity}
+                        repeat={0}
                         speed={70}
                     />
                 </div>
@@ -40,12 +40,15 @@ function Home(props){
                             2500,
                             'Contact team@agrippa.build',
                             () => {
-                                console.log('Done typing!'); // Place optional callbacks anywhere in the array
+                                document.getElementsByClassName('email')[0].innerHTML = "Contact <a href='mailto::team@agrippa.build'>team@agrippa.build</a>"
+                                console.log("Bruh!")
                             }
                         ]}
                         cursor={false}
-                        repeat={Infinity}
+                        repeat={0}
                         speed={70}
+                        wrapper="div"
+                        className='email'
                     />
                 </div>
             </div>

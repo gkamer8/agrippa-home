@@ -5,21 +5,12 @@
 .main {
     color: #45DE14 ;
     text-align: left;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-left: 10%;
     margin-right: 10%;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 a {
     color: inherit;
     text-decoration: underline;
-}
-
-
-.email {
-    text-decoration: underline;
-}
-
-* {
-    font-family: 'Courier New', Courier, monospace;
 }
