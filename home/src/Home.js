@@ -40,7 +40,7 @@ function Home(props){
                             2500,
                             'Contact team@agrippa.build',
                             () => {
-                                document.getElementsByClassName('email')[0].innerHTML = "Contact <a href='mailto::team@agrippa.build'>team@agrippa.build</a>"
+                                document.getElementsByClassName('email')[0].innerHTML = "Contact <a href='mailto:team@agrippa.build'>team@agrippa.build</a>"
                                 console.log("Bruh!")
                             }
                         ]}
